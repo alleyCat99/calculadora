@@ -16,5 +16,8 @@ def sumar(a: float, b: float) -> float:
     """
     return a + b
 
-def multiplicacion(a:float, b:float) -> float:
-    return a*b
+def division(a:float, b:float) -> float:
+    if b!=0:
+        return a/b
+    else:
+        return None
